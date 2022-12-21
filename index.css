@@ -4,6 +4,7 @@
   border: 1px solid red;
   transition: all 0.5s ease-in-out;
 }
+
 .blocks {
   max-width: 1200px;
   width: 100%;
@@ -13,7 +14,8 @@
   justify-content: center;
   gap: 5px;
 }
+
 .blocksrow {
   display: flex;
   gap: 5px;
-}
+}/*# sourceMappingURL=index.css.map */
