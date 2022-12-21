@@ -19,11 +19,13 @@ function handleClick(block) {
             }, 5000)
             let temp = counted;
             counted = [];
-            for (let i = 0; i < temp.length; i++) {
-                setTimeout(() => {
-                    temp[i].style.background = 'white';
-                }, 1250 * i / 2)
-            }
+            setTimeout(() => {
+                for (let i = 0; i < temp.length; i++) {
+                    setTimeout(() => {
+                        temp[i].style.background = 'white';
+                    }, 1250 * i / 2)
+                }
+            }, 500)
         }
     }, { once: 'true' })
 }
